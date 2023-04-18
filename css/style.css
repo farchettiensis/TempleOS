@@ -1,5 +1,6 @@
 html {
-    margin-bottom: 10rem;
+    /* margin-bottom: 10rem; */
+    margin: 0;
 }
 
 html, body {
@@ -16,7 +17,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 1rem;
     margin: 1rem;
 }
@@ -27,7 +28,6 @@ header {
 
 .nav-links {
     display: flex;
-    justify-content: flex-end;
     gap: 6rem;
 }
 
