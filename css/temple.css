@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #2F4F4F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    border: 5px double #8B0000;
+  }
+  
+  main {
+    width: 640px;
+    height: auto;
+    margin: 0 auto;
+    background-image: url("/images/logo.JPG");
+    background-size: cover;
+    border: 5px double #8B0000;
+  }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-family: 'Press Start 2P', cursive;
+    color: #FFFFFF;
+    padding: 1rem 0;
+}
+
+a {
+    color: #FFFFFF;
+    font-family: 'Press Start 2P', cursive;
+}
+
+a:hover {
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+    color: #00FF00;
+    text-decoration: underline;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gods-color:hover {
+    color: #00ffff;
+    transition: color 0.5s ease;
+}
+
+.entertain:hover {
+    text-decoration: underline;
+    color: #FFFF55;
+}
